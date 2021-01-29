@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   num_comp = 1000000000000000000000000000000000000000000000000000000
-  key_store = nil 
+  key_store = ""
   name_hash.each do |key, value|
     if value < num_comp
       key_store = key
