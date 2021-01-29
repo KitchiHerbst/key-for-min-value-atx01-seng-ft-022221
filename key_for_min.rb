@@ -5,7 +5,10 @@ def key_for_min_value(name_hash)
   num_comp = 10000000
   key_store = nil 
   name_hash.each do |key, value|
-    
-    if value < num 
-      puts key 
+    if value < num_comp
+      key_store = key
+    end
+  end
+      
+       
 end
